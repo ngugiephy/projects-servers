@@ -40,13 +40,18 @@
 					  </div>
 					  <ul class="list-group list-group-flush">
 					    <p>
-					    	<b>Error Messages : </b> '.$row["op"].'
+					    	<b>Update Output : </b> '.$row["upd"].'
 					    </p>
 					  </ul>
-					  <div class="card-body">
+					  <ul class="list-group list-group-flush">
+					    <p>
+					    	<b>Update Output : </b> '.$row["upg"].'
+					    </p>
+					  </ul>
+					  <!--div class="card-body">
 					    <a href="#" class="card-link">Read more details</a>
 					    <a href="#" class="card-link">View as Read</a>
-					  </div>
+					  </div-->
 					</div>
 				</div>
 	      		';
